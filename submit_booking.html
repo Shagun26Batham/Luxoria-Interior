@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Booking</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ff7f7f, #ffb6b6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        h1 {
+            color: #333;
+            font-size: 4em;
+            font-family: 'Cursive';
+            text-align: center;
+            animation: pop-up 2.5s ease-in-out ;
+            /* animation: step-end; */
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+        }
+        @keyframes pop-up {
+            0% {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>THANK YOU FOR BOOKING!!!</h1>
+</body>
+</html>
